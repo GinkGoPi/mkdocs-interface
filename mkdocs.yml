@@ -1,0 +1,19 @@
+site_name: API Documentation
+
+# theme: readthedocs
+theme:
+  name: material
+
+nav:
+    - 'index.md'
+    - 'API reference':
+        - 'RelayHub': 'API/RelayHub.md'
+        - 'VoteEscrowFuture': 'API/VoteEscrowFuture.md'
+    
+
+
+plugins:
+    - search
+    - pdf-export:
+        combined: true
+        cover: false
